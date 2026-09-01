@@ -309,11 +309,16 @@ html{
         animation: fadeIn 2s ease;
       }
 
-      h1 {
-        font-size: 70px;
-        margin-bottom: 15px;
-        text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-        animation: float 3s infinite ease-in-out;
+      h1{
+        font-size:60px;
+        margin-bottom:15px;
+        text-shadow:0 0 20px rgba(255,255,255,.5);
+      }
+      
+      @media(max-width:600px){
+        h1{
+          font-size:38px;
+        }
       }
 
       p {
